@@ -17,14 +17,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Soiper</a>
+					<a class="navbar-brand" href="inicio.php">Soiper</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#">Inicio</a></li>
-						<li><a href="#about">Noticias</a></li>
-						<li><a href="#contact">Contacto</a></li>
-						<li><a href="#contact">Sobre Nosotros</a></li>
+						<li <?php if(strpos($_SERVER["REQUEST_URI"],'inicio.php') !== false){echo "class=\"active\"";} ?>><a href="inicio.php">Inicio</a></li>
+						<li <?php if(strpos($_SERVER["REQUEST_URI"],'noticias.php') !== false){echo "class=\"active\"";} ?>><a href="noticias.php">Noticias</a></li>
+						<li <?php if(strpos($_SERVER["REQUEST_URI"],'contacto.php') !== false){echo "class=\"active\"";} ?>><a href="contacto.php">Contacto</a></li>
+						<li <?php if(strpos($_SERVER["REQUEST_URI"],'nosotros.php') !== false){echo "class=\"active\"";} ?> ><a href="nosotros.php">Sobre Nosotros</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
