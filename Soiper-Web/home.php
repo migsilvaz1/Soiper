@@ -26,39 +26,39 @@
 								<!-- Wrapper for slides -->
 								<div class="carousel-inner" role="listbox">
 									<div id="slide0" class="item active">
-										<div style="background-image: url(img/ejemplo1.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/inicio.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo1
+											<h3>Inicio</h3>
 										</div>
 									</div>
 									<div id="slide1" class="item">
-										<div style="background-image: url(img/ejemplo2.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/soiper-extendida.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo2
+											<h3>Soiper</h3>
 										</div>
 									</div>
 									<div id="slide2" class="item">
 										<div style="background-image: url(img/ejemplo3.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo3
+											<h3>Proyectos</h3>
 										</div>
 									</div>
 									<div id="slide3" class="item">
 										<div style="background-image: url(img/ejemplo4.jpeg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo4
+											<h3>Sobre Nosotros</h3>
 										</div>
 									</div>
 									<div id="slide4" class="item">
 										<div style="background-image: url(img/ejemplo5.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo5
+											<h3>Noticias</h3>
 										</div>
 									</div>
 									<div id="slide5" class="item">
 										<div style="background-image: url(img/ejemplo6.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
-											ejemplo6
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ContactoModal">Contacto</button>
 										</div>
 									</div>
 								</div>
@@ -69,10 +69,12 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<button id="0" href="#carousel-example-generic" data-slide-to="0" style="background-image: url(img/ejemplo1.jpg); opacity:1; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></button>
+							<button id="0" href="#carousel-example-generic" data-slide-to="0" style="background-image: url(img/inicio.jpg); opacity:1; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;">
+								<a class="hidden" id="info">TEXTO</a>
+							</button>
 						</div>
 						<div class="col-md-3">
-							<button id="1" href="#carousel-example-generic" data-slide-to="1" style="background-image: url(img/ejemplo2.jpg); opacity:0.5; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-top: 15px"></button>
+							<button id="1" href="#carousel-example-generic" data-slide-to="1" style="background-image: url(img/soiper.jpg); opacity:0.5; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-top: 15px"></button>
 						</div>
 					</div>
 					<div class="row" style="margin-top: 25px">
@@ -92,7 +94,36 @@
 				</div>
 			</div>
 		</div>
-		
+		<!-- ContactoModal -->
+		<div class="modal fade" id="ContactoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel">Contacta con nosotros</h4>
+		      </div>
+		      <div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="nombre">Nombre</label>
+								<input id="nombre" type="text" class="form-control" />
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input id="email" type="text" class="form-control"/>
+							</div>
+							<div class="form-group">
+								<label for="mensaje">Mensaje</label>
+								<textarea id="mensaje" type="textarea" class="form-control"></textarea>
+							</div>
+						</form>
+					</div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+		        <button type="button" class="btn btn-primary">Enviar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 		<script>
 			$("#carousel-example-generic").on('slide.bs.carousel', function() {
 				var fadeOut = $(this).find('.active').index();
