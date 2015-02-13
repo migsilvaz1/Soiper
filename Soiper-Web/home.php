@@ -32,31 +32,31 @@
 										</div>
 									</div>
 									<div id="slide1" class="item">
-										<div style="background-image: url(img/soiper-extendida.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/soiper.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
 											<h3>Soiper</h3>
 										</div>
 									</div>
 									<div id="slide2" class="item">
-										<div style="background-image: url(img/ejemplo3.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/proyectos.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
 											<h3>Proyectos</h3>
 										</div>
 									</div>
 									<div id="slide3" class="item">
-										<div style="background-image: url(img/ejemplo4.jpeg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/nosotros.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
 											<h3>Sobre Nosotros</h3>
 										</div>
 									</div>
 									<div id="slide4" class="item">
-										<div style="background-image: url(img/ejemplo5.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/noticias.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
 											<h3>Noticias</h3>
 										</div>
 									</div>
 									<div id="slide5" class="item">
-										<div style="background-image: url(img/ejemplo6.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
+										<div style="background-image: url(img/contacto.jpg); height: 415px; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></div>
 										<div class="carousel-caption">
 											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ContactoModal">Contacto</button>
 										</div>
