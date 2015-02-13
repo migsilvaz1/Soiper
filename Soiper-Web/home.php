@@ -69,26 +69,37 @@
 							</div>
 						</div>
 						<div class="col-md-3">
-							<button id="0" href="#carousel-example-generic" data-slide-to="0" style="background-image: url(img/inicio.jpg); opacity:1; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;">
-								<a class="hidden" id="info">TEXTO</a>
+							<button id="0" href="#carousel-example-generic" data-slide-to="0" style="background-color: #b4e12a; opacity:1; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;">
+								<div class="col-md-12"><h1 style="font-family: Helvetica; color: white">Inicio</h1></div>
+								<span class="glyphicon glyphicon-home" aria-hidden="true" style="color: white; font-size: 40px;"></span>
 							</button>
 						</div>
 						<div class="col-md-3">
-							<button id="1" href="#carousel-example-generic" data-slide-to="1" style="background-image: url(img/soiper.jpg); opacity:0.5; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-top: 15px"></button>
+							<button id="1" href="#carousel-example-generic" data-slide-to="1" style="background-color: #b4e12a; opacity:0.5; height: 200px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-top: 15px">
+								<span class="glyphicon glyphicon-leaf" aria-hidden="true" style="color: white; font-size: 40px;"></span>
+							</button>
 						</div>
 					</div>
 					<div class="row" style="margin-top: 25px">
 						<div class="col-md-3">
-							<button id="2" href="#carousel-example-generic" data-slide-to="2" style="background-image: url(img/ejemplo3.jpg); opacity:0.5; height: 100px; width: 255px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-right: -15px;"></button>
+							<button id="2" href="#carousel-example-generic" data-slide-to="2" style="background-color: #b4e12a; opacity:0.5; height: 100px; width: 255px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-right: -15px;">
+								<span class="glyphicon glyphicon-folder-open" aria-hidden="true" style="color: white; font-size: 30px;"></span>
+							</button>
 						</div>
 						<div class="col-md-3">
-							<button id="3" href="#carousel-example-generic" data-slide-to="3" style="background-image: url(img/ejemplo4.jpeg); opacity:0.5; height: 100px; width: 255px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-right: -15px;"></button>
+							<button id="3" href="#carousel-example-generic" data-slide-to="3" style="background-color: #b4e12a; opacity:0.5; height: 100px; width: 255px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto; margin-right: -15px;">
+								<span class="glyphicon glyphicon-user" aria-hidden="true" style="color: white; font-size: 30px;"></span>
+							</button>
 						</div>
 						<div class="col-md-3">
-							<button id="4" href="#carousel-example-generic" data-slide-to="4" style="background-image: url(img/ejemplo5.jpg); opacity:0.5; height: 100px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></button>
+							<button id="4" href="#carousel-example-generic" data-slide-to="4" style="background-color: #b4e12a; opacity:0.5; height: 100px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;">
+								<span class="glyphicon glyphicon-bullhorn" aria-hidden="true" style="color: white; font-size: 30px;"></span>
+							</button>
 						</div>
 						<div class="col-md-3">
-							<button id="5" href="#carousel-example-generic" data-slide-to="5" style="background-image: url(img/ejemplo6.jpg); opacity:0.5; height: 100px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;"></button>
+							<button id="5" href="#carousel-example-generic" data-slide-to="5" style="background-color: #b4e12a; opacity:0.5; height: 100px; width: 240px; border: none; background-position: center; background-repeat:no-repeat;background-size:cover; margin: 0px auto;">
+								<span class="glyphicon glyphicon-send" aria-hidden="true" style="color: white; font-size: 30px;"></span>
+							</button>
 						</div>
 					</div>
 				</div>
